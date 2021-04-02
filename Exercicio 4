@@ -1,0 +1,32 @@
+programa
+{
+	real n1, n2, n3, maior1, maior2, soma
+	
+	funcao inicio()
+	{
+		escreva("Digite o primeiro número: ")
+		leia(n1)
+		escreva("Digite o segundo número: ")
+		leia(n2)
+		escreva("Digiite o terceiro número: ")
+		leia(n3)
+
+		se(n1 > n2)
+		se(n3 > n2)
+		soma = n1 + n3
+
+          se(n2 > n3)
+          se(n1 > n3)
+          soma = n2 + n1
+
+          se(n3 > n1)
+          se(n2 > n1)
+          soma = n3 + n2
+
+
+           escreva("A soma dos dois maiores números é de: ", soma)
+          
+          
+		
+	}
+}
