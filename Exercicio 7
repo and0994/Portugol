@@ -1,0 +1,12 @@
+programa
+{
+	inteiro i = 1
+	funcao inicio()
+	{
+		enquanto(i<=10){
+			escreva(i+", ")
+			i++// i=i+1
+
+		}
+	}
+}
