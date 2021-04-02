@@ -1,0 +1,23 @@
+programa
+{
+	real aum, cus, val, luc, por
+	
+	funcao inicio()
+	{
+		
+		escreva("!Wesley peças automotivas!")
+		
+		escreva("\nQual o valor de custo da peça? ")
+		leia(cus)
+		escreva("\nQual a margem de aumento em porcentagem? ")
+		leia(aum)
+		
+		por = (cus / 100) * aum
+		val = por + cus
+		luc = val - cus
+		
+		escreva("\nO preço da venda será de R$ " , val)
+		
+		escreva("\nO lucro será de R$ " , luc)
+	}
+}
