@@ -1,0 +1,16 @@
+programa
+{
+	inteiro num, i=1
+	
+	funcao inicio()
+	{
+
+	escreva("Digite um número: ")
+	leia(num)
+	
+	enquanto (i<=num){
+	escreva (i+", ")
+	i++
+	       }
+	}
+}
