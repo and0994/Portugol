@@ -1,0 +1,51 @@
+programa
+{
+	
+	funcao inicio()
+{
+		real n1, n2, soma, sub, mult, div
+		inteiro opcao
+
+          escreva("Digite o primeiro número: ")
+          leia(n1)
+          escreva("Digite o segundo número: ")
+          leia(n2)
+
+          soma = n1 + n2
+          sub = n1 - n2
+          mult = n1 * n2
+          div = n1 / n2
+		
+		escreva("1) Soma \n")
+		escreva("2) Subtração \n")
+		escreva("3) Multiplicação\n")
+		escreva("4) Divisão \n")
+
+		escreva("Escolha uma opção: ")
+		leia(opcao)
+
+		limpa()
+
+		escolha (opcao)	
+		{
+			caso 1: 
+		 		escreva ("A soma dos número é de: ", soma)
+		 		pare   // Impede que as instruções do caso 2 sejam executadas
+		 	caso 2: 
+		 		escreva ("A subtração dos números é de: ", sub)
+		 		pare   // Impede que as instruções do caso 2 sejam executadas
+		 	caso 3: 
+		 		escreva ("A multiiplicação dos números é de: ", mult)
+		 		pare
+		     caso 4:
+		          escreva ("A multiplicação dos números é de: ", div)
+		          pare
+		 	caso contrario: // Será executado para qualquer opção diferente de 1, 2 ou 3
+		 		escreva ("Opção Inválida !")
+		}
+
+		escreva("\n")
+	}
+}
+
+		
