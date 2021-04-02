@@ -1,0 +1,23 @@
+programa
+{
+      real p1, p2, p3, p4
+      real soma
+      real media
+	
+	funcao inicio()
+	{
+		escreva("Digite a nota da primeira prova: ")
+		leia(p1)
+		escreva("Digite a nota da segunda prova: ")
+		leia(p2)
+		escreva("Digite a nota da terceira prova: ")
+		leia(p3)
+		escreva("Digite a nota da quarta prova: ")
+		leia(p4)
+
+		soma = p1 + p2 + p3 + p4 
+		media = soma / 4
+
+		escreva("A sua média é de: ", media, " .")
+	}
+}
