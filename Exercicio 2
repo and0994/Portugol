@@ -1,0 +1,30 @@
+programa
+{
+      inteiro n1 = 1, n2 = 2, n3 = 3, n4 = 4, n5 = 5, n6 = 6, n7 = 7, n8 = 8, n9 = 9, n10 = 10
+	 inteiro mult = 5
+	 inteiro r1, r2, r3, r4, r5, r6, r7, r8, r9, r10
+	 
+	funcao inicio()
+	{
+          r1 = n1 * mult
+          r2 = n2 * mult
+          r3 = n3 * mult
+	     r4 = n4 * mult
+	     r5 = n5 * mult
+	     r6 = n6 * mult
+	     r7 = n7 * mult
+	     r8 = n8 * mult
+	     r9 = n9 * mult
+	     r10 = n10 * mult
+		escreva(mult, " X ", n1, " = ",r1, "\n")
+		escreva(mult, " X ", n2, " = ",r2, "\n")
+		escreva(mult, " X ", n3, " = ",r3, "\n")
+		escreva(mult, " X ", n4, " = ",r4, "\n")
+		escreva(mult, " X ", n5, " = ",r5, "\n")
+		escreva(mult, " X ", n6, " = ",r6, "\n")
+		escreva(mult, " X ", n7, " = ",r7, "\n")
+		escreva(mult, " X ", n8, " = ",r8, "\n")
+		escreva(mult, " X ", n9, " = ",r9, "\n")
+		escreva(mult, " X ", n10, " = ",r10, "\n")
+	}
+}
