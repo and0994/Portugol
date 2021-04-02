@@ -1,0 +1,16 @@
+programa
+{
+       real drone = 8.190, valor
+       real parcela 
+
+	
+	funcao inicio()
+	{
+		escreva("Em quantas parcelas você deseja pagar o produto? ")
+		leia(parcela)
+
+		valor = drone / parcela
+
+		escreva("Cada parcela terá o valor de:R$", valor)
+	}
+}
