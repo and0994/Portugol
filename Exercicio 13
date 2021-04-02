@@ -1,0 +1,74 @@
+programa
+{
+     real n1, n2, n3, n4, n5, n6, n7, n8, n9, n10, soma
+     real nme1, nme2, nme3, nme4, nme5, nme6, nme7, nme8, nme9, nme10
+     
+	
+	funcao inicio()
+	{
+		escreva("Digite o primeiro número: ")
+          leia(n1)
+		escreva("Digite o segundo número: ")
+          leia(n2)
+          escreva("Digite o terceiro número: ")
+          leia(n3)
+          escreva("Digite o quarto número: ")
+		leia(n4)
+          escreva("Digite o quinto número: ")
+		leia(n5)
+          escreva("Digite o sexto número: ")
+		leia(n6)
+          escreva("Digite o sétimo número: ")
+		leia(n7)
+          escreva("Digite o oitavo número: ")
+		leia(n8)
+          escreva("Digite o nono número:")
+		leia(n9)
+          escreva("Digite o décimo número: ")
+		leia(n10)
+
+		se (n1 <= 40)
+		nme1 = n1
+		senao nme1 = 0
+
+		se (n2 <= 40)
+		nme2 = n2
+		senao nme2 = 0
+		
+		se (n3 <= 40)
+		nme3 = n3
+		senao nme3 = 0
+		
+		se (n4 <= 40)
+		nme4 = n4
+		senao nme4 = 0
+		
+		se (n5 <= 40)
+		nme5 = n5
+		senao nme5 = 0
+		
+		se (n6 <= 40)
+		nme6 = n6
+		senao nme6 = 0
+		
+		se (n7 <= 40)
+		nme7 = n7
+		senao nme7 = 0
+		
+		se (n8 <= 40)
+		nme8 =  n8
+		senao nme8 = 0
+		
+		se (n9 <= 40)
+		nme9 = n9
+		senao nme9 = 0
+		
+		se (n10 <= 40)
+		nme10 = n10
+		senao nme10 = 0
+
+		soma = nme1 + nme2 + nme3 + nme4 + nme5 + nme6 + nme7 + nme8 + nme9 + nme10
+
+          escreva("Soma final: ", soma)
+	}
+}
